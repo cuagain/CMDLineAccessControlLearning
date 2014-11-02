@@ -63,3 +63,7 @@ public class B:A {
 private class C {
     var name:String!
 }
+
+let a = A()
+
+

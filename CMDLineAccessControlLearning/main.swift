@@ -20,10 +20,12 @@ let employee = Employee(name: "Chai", position: Position.Programmer)
 println("Employee name is \(employee.name) and position is \(employee.position.rawValue)")
 
 
-let a = A()
+let aa = a
 
-//a.internalMethod()
+a.internalMethod()
 
 let b = B()
 
 b.internalMethod()
+
+aa.internalMethod()
